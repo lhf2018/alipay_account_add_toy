@@ -15,8 +15,7 @@
 	
 	
 
-   <context:annotation-config />
-	<context:component-scan base-package="service" />
-
+	<context:annotation-config />
+	<context:component-scan base-package="service,server" />
 
 </beans>
